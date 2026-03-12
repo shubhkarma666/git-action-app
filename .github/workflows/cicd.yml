@@ -146,7 +146,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: adijaiswal/bankapp:latest
+        tags: shubhdock1/bankapp:latest
         file: ./Dockerfile
 
   deploy_to_kubernetes:
