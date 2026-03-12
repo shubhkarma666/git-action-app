@@ -21,7 +21,7 @@ jobs:
 
   compile:
     runs-on: self-hosted
-
+    needs: install_maven
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
