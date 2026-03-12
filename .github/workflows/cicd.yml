@@ -71,7 +71,7 @@ jobs:
       
   unzip_install:
     runs-on: self-hosted
-    needs: security-check
+    needs: test
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
